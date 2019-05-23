@@ -18,7 +18,27 @@ async def cry(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("(;´༎ຶД༎ຶ)")
 
-         
+@register(outgoing=True, pattern="^.gey$")  
+async def gey(e):
+   if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit("`\n╭━━━╮╭━━━╮╭╮╱╱╭╮`" 
+                     "`\n┃╭━╮┃┃╭━╮┃┃╰╮╭╯┃`" 
+                     "`\n┃┃╱╰╯┃┃╱┃┃╰╮╰╯╭╯`" 
+                     "`\n┃┃╭━╮┃╰━╯┃╱╰╮╭╯`"
+                     "`\n┃╰┻━┃┃╭━╮┃╱╱┃┃`"
+                     "`\n╰━━━╯╰╯╱╰╯╱╱╰╯`")
+        
+   
+@register(outgoing=True, pattern="^.xd$")  
+async def xd(e):
+   if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit("`\n╭━╮╭━╮╭━━━╮`"
+                     "`\n╰╮╰╯╭╯╰╮╭╮┃`"
+                     "`\n╱╰╮╭╯  ┃┃┃┃`"
+                     "`\n╱╭╯╰╮  ┃┃┃┃`"
+                     "`\n╭╯╭╮╰╮╭╯╰╯┃`"
+                     "`\n╰━╯╰━╯╰━━━╯`") 
+
 @register(outgoing=True, pattern="^.fail$")  
 async def fail(e):
    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
@@ -95,12 +115,12 @@ async def tf(e):
         await e.edit("(̿▀̿ ̿Ĺ̯̿̿▀̿ ̿)̄  ")  
        
                   
-@register(outgoing=True, pattern="^.gey$")            
+@register(outgoing=True, pattern="^.gei$")            
 async def gey(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`\n┈┈┈╭━━━━━╮┈┈┈┈┈\n┈┈┈┃┊┊┊┊┊┃┈┈┈┈┈`"
                      "`\n┈┈┈┃┊┊╭━╮┻╮┈┈┈┈\n┈┈┈╱╲┊┃▋┃▋┃┈┈┈┈\n┈┈╭┻┊┊╰━┻━╮┈┈┈┈`"
-                     "`\n┈┈╰┳┊╭━━━┳╯┈┈┈┈\n┈┈┈┃┊┃╰━━┫┈NIGGA U GEY`"
+                     "`\n┈┈╰┳┊╭━━━┳╯┈┈┈┈\n┈┈┈┃┊┃╰━━┫┈NIGGA U GEI`"
                     "\n┈┈┈┈┈┈┏━┓┈┈┈┈┈┈")    
 
 @register(outgoing=True, pattern="^.bot$")
