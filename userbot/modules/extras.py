@@ -35,7 +35,7 @@ async def lol(e):
                      "`\n╱┃┗━━┓┃╰━╯┃┃┗━━┓╱ `" 
                      "`\n╱┗━━━┛╰━━━╯┗━━━┛╱ `") 
 
-@register(outgoing=True, pattern="^.mp[$")
+@register(outgoing=True, pattern="^.mp$")
 async def mp(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`\n╭━╮╭━╮╭━━╮╭━━━╮╭━━━╮╭━━╮╭━━━╮╭━╮╱╭╮`" 
