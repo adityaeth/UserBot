@@ -82,8 +82,8 @@ async def huhu(e):
                      "`\n(=' ᴗ')`"
                      "`\n(, (") (")")
 
-@register(outgoing=True, pattern="^.o$")  
-async def .o(e):
+@register(outgoing=True, pattern="^.paw$")  
+async def .paw(e):
    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`\n(=ↀωↀ=)")
 
