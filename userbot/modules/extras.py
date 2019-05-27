@@ -85,7 +85,7 @@ async def huhu(e):
 @register(outgoing=True, pattern="^.paw$")  
 async def paw(e):
    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("`\n(=ↀωↀ=)")
+        await e.edit("`(=ↀωↀ=)")
 
 @register(outgoing=True, pattern="^.fp$")
 async def facepalm(e):
