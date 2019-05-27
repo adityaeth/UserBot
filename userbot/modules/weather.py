@@ -121,8 +121,8 @@ async def get_weather(weather):
                        f"**Max. Temp.:** `{celsius(max_temp)}°C | {fahrenheit(max_temp)}°F`\n" +
                        f"**Humidity:** `{humidity}%`\n" +
                        f"**Wind:** `{kmph[0]} kmh | {mph[0]} mph, {findir}`\n" +
-                       f"**Sunrise:** `{sun(sunrise)}`\n" +
-                       f"**Sunset:** `{sun(sunset)}`\n\n\n" +
+                       f"__Sunrise:__ `{sun(sunrise)}`\n" +
+                       f"__Sunset:__ `{sun(sunset)}`\n\n\n" +
                        f"**{desc}**\n" +
                        f"`{cityname}, {fullc_n}`\n" +
                        f"`{time}`")
