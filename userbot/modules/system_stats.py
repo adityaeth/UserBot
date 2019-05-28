@@ -116,7 +116,7 @@ async def amireallyalive(alive):
     if not alive.text[0].isalpha() and alive.text[0] not in ("/", "#", "@", "!"):
         await alive.edit(
             "`"
-            "Nigga I ain't dead yet \n\n"
+            "__Nigga I ain't dead yet__ \n\n"
             f"Telethon version: {version.__version__} \n"
             f"Python version: {python_version()} \n"
             f"Nigga's I'd: {DEFAULTUSER}"
