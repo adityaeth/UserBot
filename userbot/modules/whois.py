@@ -112,7 +112,7 @@ async def fetch_info(replied_user, event):
     caption += f"First Name: {first_name} \n"
     caption += f"Last Name: {last_name} \n"
     caption += f"Username: {username} \n \n"
-    caption += f"<b>NIGGA YOUR ID</b> <code>{user_id}</code> \n \n"
+    caption += f"<b>ID</b> <code>{user_id}</code> \n \n"
     caption += f"<b>BIO</b> \n<code>{user_bio}</code> \n \n"
     caption += f"Common Chats with this user: {common_chat} \n"
     caption += f"Permanent Link To Profile: "
