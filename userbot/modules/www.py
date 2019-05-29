@@ -36,7 +36,7 @@ async def speedtst(spd):
                    "<b>Ping</b> "
                    f"{result['ping']} \n"
                    "<b>ISP</b> "
-                   f"{result['client']['isp']}"")
+                   f"{result['client']['isp']}")
 
 
 def speed_convert(size):
